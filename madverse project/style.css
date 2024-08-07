@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  font-size: 3vw;
+}
+h3 {
+  color: grey;
+  font-weight: 300;
+}
+h4 {
+  font-weight: 500;
+  color: rgb(167, 249, 45);
+}
+section {
+  background-color: black;
+  height: 90vh;
+  width: 100vw;
+}
+.one {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  position: relative;
+}
+header{
+  height: 2vw;
+  display: flex;
+  background:radial-gradient(rgb(24, 24, 74),blue,purple);
+  color:black;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  position: absolute;
+  top:3.3vw;
+  background: rgba(43, 42, 42, 0.704);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 2vw;
+  border-radius: 1.5vw;
+  border:0.1vw solid grey;
+  position: fixed;
+
+  height: 5.3vw;
+  width: 80vw;
+  
+}
+.main{
+  background:none;
+  color:white;
+  font-size: 1.4vw;
+  margin-left: 2vw;
+
+}
+.login{
+  background: none;
+  color:greenyellow;
+  border:0.1vw solid greenyellow;
+}
+.login:hover{
+  background-color: white;
+  color:black;
+}
+.signup{
+  color:black;
+  background: greenyellow;
+}
+nav div{
+  display: flex;
+  gap:1vw;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2vw;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 0;
+  
+}
+nav ul li a{
+  font-size: 1vw;
+  color:white;
+  background: none;
+}
+nav ul li a:hover{
+  color:greenyellow;
+}
+
+
+.main-heading {
+  /* background-color: blue; */
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-third-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-button {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+ a{
+  padding: 1vw;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: greenyellow;
+  border-radius: 1vw;
+}
+.main-button a:nth-child(1){
+  padding:1.5vw 2vw;
+  
+  
+}
+.main-button a:nth-child(2){
+  background: none;
+  color:white;
+  font-size: 1.2vw;
+}
+.main-button a:nth-child(2) i{
+  border-radius: 50%;
+  border:0.2vw solid white;
+  font-size: 2vw;
+  padding:1vw;
+  margin-left: 1vw;
+}
+.main-button a:nth-child(2):hover i{
+  color:greenyellow;
+  border:0.2vw solid greenyellow;
+  transition: 0.4s;
+}
+.main-button a:nth-child(2):hover {
+  color:greenyellow;
+  transition: 0.4s;
+}
+.sign-up:hover{
+  background: none;
+  color:greenyellow;
+  border:0.1vw solid greenyellow;
+
+  transition: 0.5s;
+
+}
+.second {
+  height: 150vh;
+}
+.img {
+  width: 80vw;
+  margin: 0vw 10vw;
+}
+img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* object-fit: cover; */
+}
+.second h4 {
+  margin-top: 3vw;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+.content h4 {
+  margin-top: 6vw;
+}
+.platform {
+  display: flex;
+  gap: 2vw;
+}
+.btn {
+  color: grey;
+  background: none;
+}
+.btn i {
+  color: grey;
+  font-size: 2vw;
+  padding: 0 0.5vw;
+}
+.third {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+.thirdone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.thirdone p {
+  color: grey;
+}
+.thirdone p span {
+  font-weight: bold;
+  color: grey;
+}
+.thirdone h1 span {
+  color: greenyellow;
+}
+.bottons {
+  /* background-color: orange; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2.4vw;
+}
+.bottons a:nth-child(1) {
+  padding: 1.2vw 1.5vw;
+  background-color: greenyellow;
+}
+.bottons a:nth-child(2) {
+  background: none;
+  border: 0.2vw solid greenyellow;
+  color: greenyellow;
+}
+
+.record {
+  height: 30vw;
+  width: 40vw;
+}
+.fourth {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+.fourone {
+  /* background-color: rebeccapurple; */
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 3vw;
+}
+
+.fourone p {
+  font-size: 1.2vw;
+  color: grey;
+}
+.fourone span {
+  font-weight: 600;
+  color: grey;
+}
+.fourth a {
+  background: none;
+  border: 0.2vw solid greenyellow;
+  color: greenyellow;
+}
+.imagecol {
+  height: 40vw;
+  width: 40vw;
+}
